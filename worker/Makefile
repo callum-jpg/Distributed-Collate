@@ -1,6 +1,6 @@
-user = distributedscience
+user = ctromanscoia
 project = distributed-collate
-org = distributedscience
+org = ctromanscoia
 tag = latest
 
 .DEFAULT_GOAL: build
