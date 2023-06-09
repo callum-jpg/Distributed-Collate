@@ -13,6 +13,7 @@
   "overwrite": "False",
   "add_image_features": "True",
   "image_feature_categories": "Granularity,Texture,ImageQuality,Count,Threshold",
+  "fields_of_view": "all",
   "printtoscreen": "True",
   "_comment2": "The following groups are individual tasks, and each will be run in parallel",
   "groups": [
