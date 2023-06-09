@@ -6,7 +6,7 @@
 #
 
 
-FROM cellprofiler/pycytominer:latest
+FROM ctromanscoia/pycytominer:latest
 
 # Install S3FS
 USER root
