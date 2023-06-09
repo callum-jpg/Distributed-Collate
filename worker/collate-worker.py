@@ -148,7 +148,8 @@ def runSomething(message):
     cmd = f"python pycytominer/cyto_utils/collate_cmd.py {message['batch']} \
         {message['config']} {message['group']['plate']} --tmp-dir {message['tmp_dir']} \
         --base {message['base_directory']} --csv-dir {message['csv_dir']} \
-        --image-feature-categories {message['image_feature_categories']} "
+        --image-feature-categories {message['image_feature_categories']} \
+        --fields-of-view {message["fields_of_view"]}"
     #handle None values
     if message["column"].lower() != "none":
         cmd += f" --column {message['column']}"  
